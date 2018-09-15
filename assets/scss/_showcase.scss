@@ -3,7 +3,9 @@
 .showcase{
   position: relative;;
   min-height: 300px;
-  height: 500px;
+  padding-bottom: 20px;
+
+
 
   &.bg{
     background: url("../img/bg-delivreo.jpg") center;
@@ -20,11 +22,24 @@
     background-image: linear-gradient(to top, #0ee9c3, #00eacb, #00ead3, #01ebdb, #12ebe2);
   }
 
+  .showcase-heading{
+    text-align: center;
+    margin: 30px 0 !important;
+
+    .heading{
+      font-size: 30pt;
+    }
+  }
+
   .showcase-content{
     position: relative;
     padding: 15% 0;
     text-align: center;
     color: #eeeeee;
+
+    &.no-padding{
+      padding: 0 !important;
+    }
 
     .slogan{
       font-size: 30pt;
@@ -41,9 +56,17 @@
 }
 
 @media (max-width: $small) {
-  .showcase{
-    height: 300px !important;
+  .showcase.showcase-bg{
+    height: 100% !important;
   }
+
+  .showcase-heading{
+
+    .heading{
+      font-size: 18pt !important;
+    }
+  }
+
   .showcase-content{
     padding-top: 20% !important;
 
@@ -57,7 +80,27 @@
     }
 
     form{
-      width: 100% !important;
+      width: 90% !important;
+    }
+  }
+}
+
+@media (min-width: $small) and (max-width: $medium) {
+  .showcase{
+
+    .showcase-content{
+
+      .slogan{
+        font-size: 24pt;
+      }
+
+      .sub-slogan{
+        font-size: 17pt;
+      }
+
+      form{
+        width: 70%;
+      }
     }
   }
 }

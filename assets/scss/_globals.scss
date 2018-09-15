@@ -4,6 +4,7 @@
 /* ------ COLORS ------ */
 
 $dark: #444444;
+$greenLight: #0ee9c3;
 
 /* ------ COLORS ------ */
 
@@ -42,6 +43,9 @@ li, ul{
   max-width: 1320px;
 }
 
+.m-auto{
+  margin: auto !important;
+}
 
 .flex{
   display: flex;
@@ -57,4 +61,12 @@ li, ul{
 
 .justify-space-between{
   justify-content: space-between;
+}
+
+.bg-white{
+  background: #ffffff !important;
+}
+
+.p-20-0{
+  padding: 20px 0 !important;
 }

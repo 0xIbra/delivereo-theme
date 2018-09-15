@@ -6,11 +6,12 @@ header{
   nav{
     background: #eeeeee;
     color: #333333 !important;
-    box-shadow: none !important;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
 
     &.top{
       background: transparent !important;
       color: #eeeeee !important;
+      box-shadow: none !important;
     }
 
     *{
@@ -18,7 +19,19 @@ header{
     }
 
     .brand-logo{
-      font-weight: 500 !important;
+      &.bold{
+        font-weight: 600 !important;
+      }
+    }
+
+    ul{
+
+      li{
+
+        a{
+          font-weight: bold;
+        }
+      }
     }
   }
 }
