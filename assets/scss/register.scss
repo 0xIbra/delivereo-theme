@@ -3,8 +3,8 @@
   top: 80px;
 
   .card{
-    height: 100%;
-    overflow: hidden !important;
+    height: 100% !important;
+    overflow-x: hidden !important;
 
     &:hover{
       box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),

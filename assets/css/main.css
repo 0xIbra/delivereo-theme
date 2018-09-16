@@ -29,6 +29,10 @@ li, ul {
   margin: auto;
   max-width: 1320px; }
 
+.page-wrapper {
+  position: relative;
+  top: 100px; }
+
 .m-auto {
   margin: auto !important; }
 
@@ -53,7 +57,8 @@ li, ul {
 header {
   position: fixed;
   width: 100%;
-  z-index: 100; }
+  z-index: 100;
+  top: 0; }
   header nav {
     background: #eeeeee;
     color: #333333 !important;
@@ -116,6 +121,9 @@ header {
   .showcase-heading .heading {
     font-size: 18pt !important; }
 
+  #content .heading {
+    font-size: 18pt !important; }
+
   .showcase-content {
     padding-top: 20% !important; }
     .showcase-content .slogan {
@@ -162,6 +170,33 @@ input[type="password"].modernize {
   input[type="password"].modernize::placeholder {
     color: #999999 !important; }
 
+div.input-field.search {
+  position: relative; }
+  div.input-field.search i.material-icons {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    bottom: 7px;
+    display: flex;
+    align-items: center;
+    color: #444444; }
+  div.input-field.search input.modernize.search {
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+    background: #ffffff !important;
+    padding: 30px 10px !important;
+    font-size: 18pt;
+    color: #444444;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1); }
+    div.input-field.search input.modernize.search:after {
+      display: block;
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 0;
+      opacity: 0;
+      -webkit-transition: .2s opacity ease-out, .2s color ease-out;
+      transition: .2s opacity ease-out, .2s color ease-out; }
+
 input[type="submit"].modernize {
   height: 40px;
   border: none !important;
@@ -170,7 +205,14 @@ input[type="submit"].modernize {
   color: #eeeeee;
   border-radius: 0 3px 3px 0; }
   input[type="submit"].modernize:hover {
-    background: #222; }
+    background: #222;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important; }
+
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+  border: 1px solid #0ee9c3 !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important; }
 
 .card {
   background-color: #eeeeee !important; }
@@ -290,6 +332,9 @@ input[type="submit"].modernize.btn {
   input[type="submit"].modernize.btn:hover {
     background: #0bc9a9; }
 
+a.redirect {
+  color: #0ee9c3; }
+
 .sidenav li .user-view .background .background-overlay {
   position: absolute;
   width: 100%;
@@ -305,6 +350,7 @@ input[type="submit"].modernize.btn {
 .alert {
   border-radius: 2px;
   padding: 8px 10px;
+  margin: 5px 0;
   color: #eeeeee; }
   .alert.danger {
     background: #d9534f; }
