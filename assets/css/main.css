@@ -73,6 +73,11 @@ header {
   position: relative;
   min-height: 300px;
   padding-bottom: 20px; }
+  .showcase#mobileversion .showcase-content {
+    color: #444444;
+    text-align: left; }
+    .showcase#mobileversion .showcase-content .col#content {
+      padding-top: 5%; }
   .showcase.bg {
     background: url("../img/bg-delivreo.jpg") center;
     background-size: cover; }
@@ -135,6 +140,26 @@ input[type="text"].modernize {
   border: none !important;
   border-radius: 3px 0 0 3px !important; }
   input[type="text"].modernize::placeholder {
+    color: #999999 !important; }
+
+input[type="email"].modernize {
+  height: 40px;
+  font-family: 'Roboto', Helvetica, sans-serif !important;
+  background: #eeeeee !important;
+  padding: 10px !important;
+  border: none !important;
+  border-radius: 3px 0 0 3px !important; }
+  input[type="email"].modernize::placeholder {
+    color: #999999 !important; }
+
+input[type="password"].modernize {
+  height: 40px;
+  font-family: 'Roboto', Helvetica, sans-serif !important;
+  background: #eeeeee !important;
+  padding: 10px !important;
+  border: none !important;
+  border-radius: 3px 0 0 3px !important; }
+  input[type="password"].modernize::placeholder {
     color: #999999 !important; }
 
 input[type="submit"].modernize {
@@ -204,6 +229,11 @@ input[type="submit"].modernize {
       align-items: center;
       justify-content: center; }
 
+.image-card {
+  height: 500px; }
+  .image-card img {
+    height: 100%; }
+
 @media (min-width: 1201px) {
   .card {
     height: 200px; } }
@@ -247,5 +277,41 @@ a.modernize {
     font-size: 12pt; }
   a.modernize:hover {
     background: #0bc9a9; }
+
+input[type="submit"].modernize.btn {
+  background: #0ee9c3;
+  padding: 0px 20px;
+  border-radius: 3px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: ease-in .1s; }
+  input[type="submit"].modernize.btn.bold {
+    font-weight: 600;
+    font-size: 12pt; }
+  input[type="submit"].modernize.btn:hover {
+    background: #0bc9a9; }
+
+.sidenav li .user-view .background .background-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.55); }
+.sidenav li a:hover {
+  color: #0ee9c3 !important; }
+  .sidenav li a:hover i.material-icons {
+    color: inherit !important; }
+
+.alert {
+  border-radius: 2px;
+  padding: 8px 10px;
+  color: #eeeeee; }
+  .alert.danger {
+    background: #d9534f; }
+  .alert.success {
+    background: #5cb85c; }
+  .alert.default {
+    background: #f9f9f9;
+    color: #444444; }
 
 /*# sourceMappingURL=main.css.map */

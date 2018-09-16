@@ -14,3 +14,20 @@ a.modernize{
     background: #0bc9a9;
   }
 }
+
+input[type="submit"].modernize.btn{
+  background: $greenLight;
+  padding: 0px 20px;
+  border-radius: 3px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  transition: ease-in .1s;
+
+  &.bold{
+    font-weight: 600;
+    font-size: 12pt;
+  }
+
+  &:hover{
+    background: #0bc9a9;
+  }
+}

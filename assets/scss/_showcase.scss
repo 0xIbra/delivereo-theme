@@ -6,6 +6,21 @@
   padding-bottom: 20px;
 
 
+  &#mobileversion{
+
+    .showcase-content{
+      color: $dark;
+      text-align: left;
+
+      .heading{
+
+      }
+
+      .col#content{
+        padding-top: 5%;
+      }
+    }
+  }
 
   &.bg{
     background: url("../img/bg-delivreo.jpg") center;

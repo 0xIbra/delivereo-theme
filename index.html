@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <title>Delivereo</title>
 
         <meta name="author" content="Ibragim Abubakarov">
@@ -17,13 +17,13 @@
     </head>
     <body>
         <header>
-            <nav class="top">
+            <nav>
                 <div class="container-fluid">
                     <div class="nav-wrapper">
                         <a href="/" class="brand-logo left bold">Delivereo</a>
                         <a href="#" data-target="sidebar-nav" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
                         <ul class="right hide-on-med-and-down">
-                            <li><a href="/">Se connecter</a></li>
+                            <li><a href="login.html">Se connecter</a></li>
                             <li><a href="/">S'inscrire</a></li>
                         </ul>
                     </div>
@@ -32,18 +32,21 @@
         </header>
 
         <ul id="sidebar-nav" class="sidenav">
-            <li><div class="user-view">
-                <div class="background">
-                    <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cbbd27149a8243a42eb2bd0bd918ba8f&auto=format&fit=crop&w=750&q=80">
+            <li>
+                <div class="user-view">
+                    <div class="background">
+                        <div class="background-overlay"></div>
+                        <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cbbd27149a8243a42eb2bd0bd918ba8f&auto=format&fit=crop&w=750&q=80">
+                    </div>
+                    <a href="void:javascript;"><img class="circle" src="https://images.unsplash.com/photo-1512667281074-84fc588aa399?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=29d596fae399949ae232a48dd88f8d95&auto=format&fit=crop&w=750&q=80"></a>
+                    <a href="void:javascript;"><span class="white-text name">Ibragim Abubakarov</span></a>
+                    <a href="mailto:ibrahim.tchee@gmail.com"><span class="white-text email">ibrahim.tchee@gmail.com</span></a>
                 </div>
-                <a href="#user"><img class="circle" src="https://images.unsplash.com/photo-1512667281074-84fc588aa399?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=29d596fae399949ae232a48dd88f8d95&auto=format&fit=crop&w=750&q=80"></a>
-                <a href="#name"><span class="white-text name">Ibragim Abubakarov</span></a>
-                <a href="#email"><span class="white-text email">ibrahim.tchee@gmail.com</span></a>
-            </div></li>
+            </li>
             <li><a href="#!"><i class="material-icons">cloud</i>Check on Gitlab</a></li>
             <li><div class="divider"></div></li>
             <li><a class="subheader">Member</a></li>
-            <li><a class="waves-effect" href="/"><i class="material-icons">account_circle</i>Connexion</a></li>
+            <li><a class="waves-effect" href="login.html"><i class="material-icons">account_circle</i>Connexion</a></li>
             <li><a class="waves-effect" href="/"><i class="material-icons">format_align_left</i>Inscription</a></li>
         </ul>
 
@@ -254,15 +257,37 @@
             </div>
         </section>
 
-
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="showcase" id="mobileversion">
+            <div class="container-fluid">
+                <div class="showcase-heading">
+                    <h1 class="heading">Disponible sur Android</h1>
+                </div>
+                <div class="showcase-content no-padding">
+                    <div class="row">
+                        <div class="col s12 m6 l4 offset-l1">
+                            <div class="image-card">
+                                <img src="assets/img/Android.png" alt="Android version">
+                            </div>
+                        </div>
+                        <div class="col s12 m6 l7" id="content">
+                            <h4 class="heading">Essayez la version Android</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci cum delectus distinctio, dolore doloremque doloribus dolorum est illo ipsum libero magnam nam nihil nisi numquam quo quos repellat sed, voluptas.</p>
+                            <a href="void:javascript;">
+                                <img src="assets/img/google-play-badge.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script src="assets/js/materialize.min.js"></script>
         <script src="assets/js/main.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('nav').addClass('top');
+            });
+        </script>
     </body>
 </html>

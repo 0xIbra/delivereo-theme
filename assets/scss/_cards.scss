@@ -85,6 +85,16 @@
 
 }
 
+
+.image-card{
+  height: 500px;
+
+  img{
+    height: 100%;
+  }
+}
+
+
 @media (min-width: $large) {
   .card{
     height: 200px;
