@@ -54,6 +54,12 @@ li, ul {
 .p-20-0 {
   padding: 20px 0 !important; }
 
+.small-subheader {
+  display: block;
+  color: #444444;
+  font-size: 12pt;
+  padding: 5px 0 !important; }
+
 header {
   position: fixed;
   width: 100%;
@@ -214,14 +220,32 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
   -webkit-box-shadow: none !important;
   box-shadow: none !important; }
 
+/**
+================================================
+================= CARD =========================
+================================================
+ */
 .card {
   background-color: #eeeeee !important; }
+  .card .card-content .small-header {
+    color: #444444;
+    font-size: 14pt; }
   .card .card-content .card-image i.material-icons {
     color: #444444;
     font-size: 55pt; }
   .card:hover {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.1) !important; }
 
+/**
+================================================
+=================== CARD =======================
+================================================
+ */
+/**
+================================================
+================= MDOERN CARD ==================
+================================================
+ */
 .modern-card {
   position: relative;
   width: 100%;
@@ -271,20 +295,101 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
       align-items: center;
       justify-content: center; }
 
+/**
+================================================
+================ MODERN CARD ===================
+================================================
+ */
+/**
+================================================
+=================== HR CARD ====================
+================================================
+ */
+.hr-card {
+  height: 100%;
+  overflow: hidden;
+  border-radius: 3px;
+  margin: 10px 0; }
+  .hr-card .row {
+    margin-bottom: 0 !important; }
+  .hr-card .image {
+    overflow: hidden;
+    width: 100%;
+    height: auto; }
+    .hr-card .image img {
+      width: 100%; }
+  .hr-card .card-body .title {
+    color: #444444;
+    font-size: 16pt;
+    display: block; }
+  .hr-card .card-body .rating {
+    display: flex;
+    margin-top: 10px; }
+    .hr-card .card-body .rating .icon {
+      margin: 0 0 10px 0;
+      display: flex; }
+      .hr-card .card-body .rating .icon.danger {
+        color: #d9534f; }
+      .hr-card .card-body .rating .icon.success {
+        color: #5cb85c; }
+      .hr-card .card-body .rating .icon i.material-icons {
+        padding: 0 2px;
+        color: inherit;
+        cursor: pointer; }
+        .hr-card .card-body .rating .icon i.material-icons:hover {
+          opacity: .8; }
+      .hr-card .card-body .rating .icon span {
+        color: inherit;
+        margin: 0 5px;
+        font-weight: bold; }
+  .hr-card .card-body .category-list span {
+    margin-right: 3px;
+    color: #666; }
+  .hr-card .card-body .info {
+    margin-top: 5px;
+    color: #666666; }
+    .hr-card .card-body .info span {
+      display: block; }
+
+/**
+================================================
+=================== HR CARD ====================
+================================================
+ */
+/**
+================================================
+================= IMAGE CARD ===================
+================================================
+ */
 .image-card {
   height: 500px; }
   .image-card img {
     height: 100%; }
 
+/**
+================================================
+================= IMAGE CARD ===================
+================================================
+ */
+/**
+================================================
+================= MEDIA QUERIES ===================
+================================================
+ */
 @media (min-width: 1201px) {
-  .card {
+  .card.custom {
     height: 200px; } }
 @media (min-width: 992px) and (max-width: 1201px) {
-  .card {
+  .cardc.custom {
     height: 180px !important; } }
 @media (min-width: 601px) and (max-width: 992px) {
-  .card {
+  .card.custom {
     height: 170px; } }
+/**
+================================================
+================= MEDIA QUERIES ===================
+================================================
+ */
 .tabs {
   color: #444444;
   background-color: #eeeeee;

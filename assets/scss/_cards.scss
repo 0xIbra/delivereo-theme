@@ -1,6 +1,16 @@
+/**
+================================================
+================= CARD =========================
+================================================
+ */
 .card{
   background-color: #eeeeee !important;
   .card-content{
+
+    .small-header{
+      color: $dark;
+      font-size: 14pt;
+    }
 
     .card-image{
       i.material-icons{
@@ -15,8 +25,18 @@
     box-shadow: 0 0 30px rgba(0,0,0,0.1) !important;
   }
 }
+/**
+================================================
+=================== CARD =======================
+================================================
+ */
 
 
+/**
+================================================
+================= MDOERN CARD ==================
+================================================
+ */
 .modern-card{
   position: relative;
   width: 100%;
@@ -84,7 +104,116 @@
   }
 
 }
+/**
+================================================
+================ MODERN CARD ===================
+================================================
+ */
 
+
+
+/**
+================================================
+=================== HR CARD ====================
+================================================
+ */
+
+.hr-card{
+  height: 100%;
+  overflow: hidden;
+  border-radius: 3px;
+  margin: 10px 0;
+
+  .row{
+    margin-bottom: 0 !important;
+  }
+
+  .image{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+
+    img{
+      width: 100%;
+    }
+  }
+
+  .card-body{
+
+    .title{
+      color: $dark;
+      font-size: 16pt;
+      display: block;
+    }
+
+    .rating{
+      display: flex;
+      margin-top: 10px;
+
+      .icon{
+        margin: 0 0 10px 0;
+        display: flex;
+
+        &.danger{
+          color: $danger;
+        }
+
+        &.success{
+          color: $success;
+        }
+
+        i.material-icons{
+          padding: 0 2px;
+          color: inherit;
+          cursor: pointer;
+
+          &:hover{
+            opacity: .8;
+          }
+        }
+
+        span{
+          color: inherit;
+          margin: 0 5px;
+          font-weight: bold;
+        }
+      }
+    }
+
+    .category-list{
+
+      span{
+        margin-right: 3px;
+        color: #666;
+
+      }
+    }
+
+    .info{
+      margin-top: 5px;
+      color: #666666;
+      span{
+        display: block;
+      }
+    }
+
+  }
+}
+
+/**
+================================================
+=================== HR CARD ====================
+================================================
+ */
+
+
+
+
+/**
+================================================
+================= IMAGE CARD ===================
+================================================
+ */
 
 .image-card{
   height: 500px;
@@ -94,21 +223,40 @@
   }
 }
 
+/**
+================================================
+================= IMAGE CARD ===================
+================================================
+ */
 
+
+
+
+/**
+================================================
+================= MEDIA QUERIES ===================
+================================================
+ */
 @media (min-width: $large) {
-  .card{
+  .card.custom{
     height: 200px;
   }
 }
 
 @media (min-width: $medium) and (max-width: $large) {
-  .card{
+  .cardc.custom{
     height: 180px !important;
   }
 }
 
 @media (min-width: $small) and (max-width: $medium) {
-  .card{
+  .card.custom{
     height: 170px;
   }
 }
+
+/**
+================================================
+================= MEDIA QUERIES ===================
+================================================
+ */
