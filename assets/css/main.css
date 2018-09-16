@@ -31,7 +31,7 @@ li, ul {
 
 .page-wrapper {
   position: relative;
-  top: 100px; }
+  top: 65px; }
 
 .m-auto {
   margin: auto !important; }
@@ -309,7 +309,8 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
   height: 100%;
   overflow: hidden;
   border-radius: 3px;
-  margin: 10px 0; }
+  margin: 10px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
   .hr-card .row {
     margin-bottom: 0 !important; }
   .hr-card .image {
@@ -350,6 +351,12 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
     color: #666666; }
     .hr-card .card-body .info span {
       display: block; }
+      .hr-card .card-body .info span.status {
+        font-weight: bold; }
+        .hr-card .card-body .info span.status.danger {
+          color: #d9534f; }
+        .hr-card .card-body .info span.status.success {
+          color: #5cb85c; }
 
 /**
 ================================================
@@ -385,6 +392,12 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
 @media (min-width: 601px) and (max-width: 992px) {
   .card.custom {
     height: 170px; } }
+@media (max-width: 601px) {
+  .hr-card {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); }
+    .hr-card .card-body {
+      width: 90%;
+      margin: auto; } }
 /**
 ================================================
 ================= MEDIA QUERIES ===================
@@ -418,7 +431,8 @@ a.modernize {
   padding: 10px 20px;
   border-radius: 3px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  transition: ease-in .1s; }
+  transition: ease-in .1s;
+  color: #eeeeee; }
   a.modernize.bold {
     font-weight: 600;
     font-size: 12pt; }
@@ -464,5 +478,12 @@ a.redirect {
   .alert.default {
     background: #f9f9f9;
     color: #444444; }
+
+.pagination li.active {
+  background: #0ee9c3 !important; }
+.pagination li:hover {
+  background: #0ee9c3 !important; }
+  .pagination li:hover a {
+    color: #eeeeee !important; }
 
 /*# sourceMappingURL=main.css.map */

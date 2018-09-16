@@ -123,6 +123,7 @@
   overflow: hidden;
   border-radius: 3px;
   margin: 10px 0;
+  border-bottom: 1px solid rgba(0,0,0,.2);
 
   .row{
     margin-bottom: 0 !important;
@@ -194,6 +195,18 @@
       color: #666666;
       span{
         display: block;
+
+        &.status{
+          font-weight: bold;
+
+          &.danger{
+            color: $danger;
+          }
+
+          &.success{
+            color: $success;
+          }
+        }
       }
     }
 
@@ -252,6 +265,17 @@
 @media (min-width: $small) and (max-width: $medium) {
   .card.custom{
     height: 170px;
+  }
+}
+
+
+@media (max-width: $small) {
+  .hr-card{
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    .card-body{
+      width: 90%;
+      margin: auto;
+    }
   }
 }
 
