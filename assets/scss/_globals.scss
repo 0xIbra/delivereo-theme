@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+@import "breakpoints";
 
 /* ------ COLORS ------ */
 
@@ -60,6 +61,10 @@ li, ul{
   display: flex;
 }
 
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
 .align-center{
   align-items: center;
 }
@@ -85,4 +90,12 @@ li, ul{
   color: $dark ;
   font-size: 12pt;
   padding: 5px 0 !important;
+}
+
+
+
+@media (max-width: $small) {
+  .overflow-x-visible{
+    overflow-x: scroll !important;
+  }
 }

@@ -39,6 +39,9 @@ li, ul {
 .flex {
   display: flex; }
 
+.flex-wrap {
+  flex-wrap: wrap; }
+
 .align-center {
   align-items: center; }
 
@@ -60,6 +63,9 @@ li, ul {
   font-size: 12pt;
   padding: 5px 0 !important; }
 
+@media (max-width: 601px) {
+  .overflow-x-visible {
+    overflow-x: scroll !important; } }
 header {
   position: fixed;
   width: 100%;

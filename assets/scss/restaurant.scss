@@ -1,0 +1,95 @@
+@import "globals";
+
+.card{
+  background-color: #ffffff !important;
+}
+
+.card#profileimage{
+
+  .card-content{
+
+    img{
+      width: 100%;
+      max-height: 300px;
+    }
+  }
+}
+
+
+.card#profilecontent{
+
+  .row{
+    margin-bottom: 0 !important;
+  }
+}
+
+.location{
+  color: rgba(0,0,0,0.5);
+
+  i.material-icons{
+    color: inherit;
+    margin-right: 5px;
+  }
+
+  span.ville{
+    font-weight: bold;
+    color: inherit;
+  }
+}
+
+span.card-title{
+  margin: 0 !important;
+}
+
+
+.rating{
+  display: flex;
+  margin: 10px 0;
+
+  .icon{
+    margin: 0 0 10px 0;
+    display: flex;
+
+    &.danger{
+      color: $danger;
+    }
+
+    &.success{
+      color: $success;
+    }
+
+    i.material-icons{
+      padding: 0 2px;
+      color: inherit;
+      cursor: pointer;
+
+      &:hover{
+        opacity: .8;
+      }
+    }
+
+    span{
+      color: inherit;
+      margin: 0 5px;
+      font-weight: bold;
+    }
+  }
+}
+
+
+a.modernize{
+  margin: 0 5px;
+
+  i.material-icons{
+    margin-right: 5px;
+  }
+}
+
+
+
+.tabs{
+  margin-top: 20px;
+  background: transparent!important;
+  box-shadow: none !important;
+  border: none !important;
+}
