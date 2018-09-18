@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9331701-1cd9-4d52-80cd-f8496dd4b2fa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/.sass-cache/034e071655b3c122bce5226ee112302ae713c9a0/_buttons.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/assets/.sass-cache/034e071655b3c122bce5226ee112302ae713c9a0/_buttons.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/.sass-cache/034e071655b3c122bce5226ee112302ae713c9a0/_cards.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/assets/.sass-cache/034e071655b3c122bce5226ee112302ae713c9a0/_cards.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/.sass-cache/034e071655b3c122bce5226ee112302ae713c9a0/_globals.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/assets/.sass-cache/034e071655b3c122bce5226ee112302ae713c9a0/_globals.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/.sass-cache/034e071655b3c122bce5226ee112302ae713c9a0/restaurant.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/assets/.sass-cache/034e071655b3c122bce5226ee112302ae713c9a0/restaurant.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/restaurant.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/restaurant.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/restaurant.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/restaurant.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/_cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_cards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/_globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_globals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/restaurant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/restaurant.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurant.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,14 +41,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="12061" />
+          <entry key="html" value="12117" />
           <entry key="js" value="452" />
           <entry key="scss" value="13073" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="12061" />
+          <entry key="HTML" value="12117" />
           <entry key="JavaScript" value="452" />
           <entry key="SCSS" value="13073" />
         </counts>
@@ -73,16 +59,16 @@
     <splitter split-orientation="horizontal" split-proportion="0.55916774">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="230">
-                  <caret line="10" selection-start-line="10" selection-end-line="10" />
+                <state relative-caret-position="506">
+                  <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/search.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="289">
@@ -230,7 +216,6 @@
         <option value="$PROJECT_DIR$/assets/scss/_navbar.scss" />
         <option value="$PROJECT_DIR$/assets/js/main.js" />
         <option value="$PROJECT_DIR$/assets/scss/_pagination.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/scss/main.scss" />
         <option value="$PROJECT_DIR$/assets/scss/_hero.scss" />
         <option value="$PROJECT_DIR$/assets/scss/_globals.scss" />
@@ -239,6 +224,7 @@
         <option value="$PROJECT_DIR$/assets/scss/restaurant.scss" />
         <option value="$PROJECT_DIR$/assets/scss/_cards.scss" />
         <option value="$PROJECT_DIR$/search.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -334,12 +320,12 @@
       <workItem from="1536999089537" duration="24975000" />
       <workItem from="1537085020630" duration="26141000" />
       <workItem from="1537205065053" duration="7262000" />
-      <workItem from="1537265334790" duration="5972000" />
+      <workItem from="1537265334790" duration="6735000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71382000" />
+    <option name="totallyTimeSpent" value="72145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1427" y="25" width="1861" height="1055" extended-state="6" />
@@ -449,13 +435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -533,6 +512,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="215" column="74" selection-start-line="215" selection-start-column="74" selection-end-line="215" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
         </state>
       </provider>
     </entry>
