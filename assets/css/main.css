@@ -63,6 +63,14 @@ li, ul {
   font-size: 12pt;
   padding: 5px 0 !important; }
 
+.bg-green-light {
+  background: #0ee9c3 !important; }
+  .bg-green-light:hover {
+    background: #0CC1A1 !important; }
+
+.color-green-light {
+  color: #0ee9c3 !important; }
+
 @media (max-width: 601px) {
   .overflow-x-visible {
     overflow-x: scroll !important; } }
@@ -236,9 +244,14 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
   .card .card-content .small-header {
     color: #444444;
     font-size: 14pt; }
-  .card .card-content .card-image i.material-icons {
+  .card .card-content .card-image i.material-icons.custom {
     color: #444444;
     font-size: 55pt; }
+  .card .card-title.modernize {
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #444444 !important; }
   .card:hover {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.1) !important; }
 
@@ -315,7 +328,7 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
   height: 100%;
   overflow: hidden;
   border-radius: 3px;
-  margin: 10px 0;
+  margin: 20px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
   .hr-card .row {
     margin-bottom: 0 !important; }
@@ -399,11 +412,9 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
   .card.custom {
     height: 170px; } }
 @media (max-width: 601px) {
-  .hr-card {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); }
-    .hr-card .card-body {
-      width: 90%;
-      margin: auto; } }
+  .hr-card .card-body {
+    width: 90%;
+    margin: auto; } }
 /**
 ================================================
 ================= MEDIA QUERIES ===================
@@ -460,6 +471,9 @@ input[type="submit"].modernize.btn {
 a.redirect {
   color: #0ee9c3; }
 
+@media (max-width: 601px) {
+  a.modernize {
+    padding: 10px !important; } }
 .sidenav li .user-view .background .background-overlay {
   position: absolute;
   width: 100%;

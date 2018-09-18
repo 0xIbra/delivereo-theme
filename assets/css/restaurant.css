@@ -63,15 +63,50 @@ li, ul {
   font-size: 12pt;
   padding: 5px 0 !important; }
 
+.bg-green-light {
+  background: #0ee9c3 !important; }
+  .bg-green-light:hover {
+    background: #0CC1A1 !important; }
+
+.color-green-light {
+  color: #0ee9c3 !important; }
+
 @media (max-width: 601px) {
   .overflow-x-visible {
     overflow-x: scroll !important; } }
 .card {
   background-color: #ffffff !important; }
 
-.card#profileimage .card-content img {
-  width: 100%;
-  max-height: 300px; }
+.card#profileimage .card-content .image-wrapper {
+  position: relative;
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  border-radius: 50%;
+  overflow: hidden; }
+  .card#profileimage .card-content .image-wrapper img {
+    width: 300px;
+    max-width: 250px;
+    height: auto !important; }
+.card#profileimage .card-content .profile-cred {
+  margin-top: 20px; }
+  .card#profileimage .card-content .profile-cred .profile-title {
+    display: block;
+    font-size: 20pt;
+    color: #444444;
+    text-align: center; }
+
+.card#profileinfo span.subheader {
+  display: block;
+  padding-bottom: 10px;
+  color: rgba(0, 0, 0, 0.4); }
+.card#profileinfo .social-icons a.icon-wrapper {
+  padding: 5px 10px;
+  color: #666666;
+  font-size: 20pt; }
+  .card#profileinfo .social-icons a.icon-wrapper:hover {
+    color: #0ee9c3 !important; }
 
 .card#profilecontent .row {
   margin-bottom: 0 !important; }
@@ -87,6 +122,9 @@ li, ul {
 
 span.card-title {
   margin: 0 !important; }
+
+.pad-10 {
+  padding: 10px !important; }
 
 .rating {
   display: flex;
@@ -110,6 +148,7 @@ span.card-title {
       font-weight: bold; }
 
 a.modernize {
+  width: 100%;
   margin: 0 5px; }
   a.modernize i.material-icons {
     margin-right: 5px; }

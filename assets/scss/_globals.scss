@@ -93,6 +93,18 @@ li, ul{
 }
 
 
+.bg-green-light{
+  background: $greenLight !important;
+
+  &:hover{
+    background: #0CC1A1 !important;
+  }
+}
+
+.color-green-light{
+  color: $greenLight !important;
+}
+
 
 @media (max-width: $small) {
   .overflow-x-visible{

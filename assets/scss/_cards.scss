@@ -13,12 +13,19 @@
     }
 
     .card-image{
-      i.material-icons{
+      i.material-icons.custom{
         color: $dark;
         font-size: 55pt;
       }
 
     }
+  }
+
+  .card-title.modernize{
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+    color: $dark !important;
   }
 
   &:hover{
@@ -122,7 +129,7 @@
   height: 100%;
   overflow: hidden;
   border-radius: 3px;
-  margin: 10px 0;
+  margin: 20px 0;
   border-bottom: 1px solid rgba(0,0,0,.2);
 
   .row{
@@ -271,7 +278,7 @@
 
 @media (max-width: $small) {
   .hr-card{
-    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    //box-shadow: 0 0 20px rgba(0,0,0,0.2);
     .card-body{
       width: 90%;
       margin: auto;

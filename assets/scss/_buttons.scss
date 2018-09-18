@@ -36,3 +36,9 @@ input[type="submit"].modernize.btn{
 a.redirect{
   color: $greenLight;
 }
+
+@media (max-width: $small) {
+  a.modernize{
+    padding: 10px !important;
+  }
+}

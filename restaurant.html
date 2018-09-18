@@ -12,6 +12,7 @@
         <link rel="shortcut icon" href="http://res.cloudinary.com/colinstodd-com/image/upload/c_fit/n9qdpfw4kwsjqox0lymi.png">
 
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="assets/css/materialize.min.css">
         <link rel="stylesheet" href="assets/css/main.css">
         <link rel="stylesheet" href="assets/css/restaurant.css">
@@ -53,33 +54,21 @@
 
 
         <div class="page-wrapper">
-            <div class="row">
-                <div class="col s12 m5 l4">
-                    <div class="card" id="profileimage">
-                        <div class="card-content">
-                            <img src="assets/img/fastfood.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m7 l8">
-                    <div class="card" id="profilecontent">
-                        <div class="card-content">
-                            <div class="row">
-                                <div class="col s12">
-                                    <div class="row">
-                                        <div class="col s12">
-                                            <span class="card-title">Restaurant</span>
-                                        </div>
-                                        <div class="col s12">
-                                            <div class="location flex align-center">
-                                                <i class="material-icons">location_on</i>
-                                                <span class="ville">Pau, 64000</span>
-                                            </div>
-                                        </div>
-                                    </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col s12 m5 l4">
+                        <div class="card" id="profileimage">
+                            <div class="card-content">
+                                <div class="image-wrapper">
+                                    <img src="assets/img/fastfood.jpg" alt="">
                                 </div>
-                                <div class="col s12">
-                                    <div class="rating">
+                                <div class="profile-cred">
+                                    <span class="profile-title">Restaurant</span>
+                                    <div class="location flex align-center justify-center">
+                                        <i class="material-icons">location_on</i>
+                                        <span class="ville">Pau, 64000</span>
+                                    </div>
+                                    <div class="rating flex justify-center">
                                         <div class="icon success">
                                             <i class="material-icons">thumb_up</i>
                                             <span>18</span>
@@ -90,35 +79,91 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col s12">
-                                    <div class="profile-contact flex justify-center">
-                                        <a href="void:javascript" class="modernize flex align-center waves-effect">
-                                            <i class="material-icons">phone_android</i>
-                                            <span>Appeler</span>
-                                        </a>
-                                        <a href="void:javascript" class="modernize flex align-center waves-effect">
-                                            <i class="material-icons">mail</i>
-                                            <span>Contacter</span>
-                                        </a>
-                                    </div>
-                                </div>
-
+                            </div>
+                        </div>
+                        <div class="card" id="profileinfo">
+                            <div class="card-content">
+                                <span class="card-title modernize">Contact</span>
                                 <div class="row">
                                     <div class="col s12">
-                                        <ul class="tabs flex justify-center overflow-x-visible">
-                                            <li class="tab col s3"><a href="#fastfood">FastFood</a></li>
-                                            <li class="tab col s3"><a href="#burger">Burger</a></li>
-                                            <li class="tab col s3"><a href="#desserts">Desserts</a></li>
-                                        </ul>
+                                        <div class="row">
+                                            <div class="profile-contact flex justify-center ">
+                                                <a href="void:javascript" class="modernize flex align-center waves-effect">
+                                                    <i class="material-icons">phone_android</i>
+                                                    <span>Appeler</span>
+                                                </a>
+                                                <a href="void:javascript" class="modernize flex align-center waves-effect">
+                                                    <i class="material-icons">mail</i>
+                                                    <span>Contacter</span>
+                                                </a>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div id="fastfood" class="col s12">
-                                        test
-                                    </div>
-                                    <div id="burger" class="col s12">
+                                    <div class="col s12">
+                                        <span class="subheader">Reseaux sociaux</span>
+                                        <div class="social-icons flex align-center">
+                                            <a href="https://www.instagram.com/ibrahim_tchee" target="_blank" class="icon-wrapper">
+                                                <span class="icon fa fa-instagram"></span>
+                                            </a>
+                                            <a href="https://www.linkedin.com/in/ibragim64000" target="_blank" class="icon-wrapper">
+                                                <span class="icon fa fa-linkedin"></span>
+                                            </a>
+                                            <a href="void:javascript;" class="icon-wrapper">
+                                                <span class="icon fa fa-facebook"></span>
+                                            </a>
+                                            <a href="void:javascript;" class="icon-wrapper">
+                                                <span class="icon fa fa-twitter"></span>
+                                            </a>
 
+                                        </div>
                                     </div>
-                                    <div id="desserts" class="col s12">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m7 l8">
+                        <div class="card" id="profilecontent">
+                            <div class="card-content">
+                                <div class="row">
 
+
+                                    <div class="row">
+                                        <div class="col s12">
+                                            <ul class="tabs flex justify-center overflow-x-visible">
+                                                <li class="tab col s3"><a href="#fastfood">FastFood</a></li>
+                                                <li class="tab col s3"><a href="#burger">Burger</a></li>
+                                                <li class="tab col s3"><a href="#desserts">Desserts</a></li>
+                                            </ul>
+                                        </div>
+                                        <div id="fastfood" class="col s12">
+                                            <div class="row">
+                                                <div class="container-fluid">
+                                                    <div class="col s12 m6 l4">
+                                                        <div class="card">
+                                                            <div class="card-image">
+                                                                <img src="assets/img/burger.jpg" alt="Burger">
+                                                                <a href="void:javascript;"
+                                                                   class="btn-floating halfway-fab waves-effect waves-light">
+                                                                    <i class="material-icons">add</i>
+                                                                </a>
+                                                            </div>
+                                                            <div class="card-content">
+                                                                <span class="card-title">Burger</span>
+                                                                <p>Burger lorem ipsum dolor sit amet.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="burger" class="col s12">
+
+                                        </div>
+                                        <div id="desserts" class="col s12">
+
+                                        </div>
                                     </div>
                                 </div>
                             </div>
