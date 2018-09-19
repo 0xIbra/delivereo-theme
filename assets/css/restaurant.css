@@ -71,6 +71,25 @@ li, ul {
 .color-green-light {
   color: #0ee9c3 !important; }
 
+.flex span {
+  margin-right: 5px; }
+
+span {
+  display: block; }
+  span.status {
+    font-weight: bold; }
+    span.status.danger {
+      color: #d9534f; }
+    span.status.success {
+      color: #5cb85c; }
+    span.status.attention {
+      color: #FFAA00; }
+
+.row-header {
+  font-size: 15pt;
+  color: #222222;
+  margin: 5px 0; }
+
 @media (max-width: 601px) {
   .overflow-x-visible {
     overflow-x: scroll !important; } }
@@ -79,16 +98,15 @@ li, ul {
 
 .card#profileimage .card-content .image-wrapper {
   position: relative;
-  display: block;
+  display: flex;
+  justify-content: center;
   width: 200px;
   height: 200px;
   margin: auto;
   border-radius: 50%;
   overflow: hidden; }
   .card#profileimage .card-content .image-wrapper img {
-    width: 300px;
-    max-width: 250px;
-    height: auto !important; }
+    height: 100% !important; }
 .card#profileimage .card-content .profile-cred {
   margin-top: 20px; }
   .card#profileimage .card-content .profile-cred .profile-title {
@@ -99,7 +117,7 @@ li, ul {
 
 .card#profileinfo span.subheader {
   display: block;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   color: rgba(0, 0, 0, 0.4); }
 .card#profileinfo .social-icons a.icon-wrapper {
   padding: 5px 10px;

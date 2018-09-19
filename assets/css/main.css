@@ -71,6 +71,25 @@ li, ul {
 .color-green-light {
   color: #0ee9c3 !important; }
 
+.flex span {
+  margin-right: 5px; }
+
+span {
+  display: block; }
+  span.status {
+    font-weight: bold; }
+    span.status.danger {
+      color: #d9534f; }
+    span.status.success {
+      color: #5cb85c; }
+    span.status.attention {
+      color: #FFAA00; }
+
+.row-header {
+  font-size: 15pt;
+  color: #222222;
+  margin: 5px 0; }
+
 @media (max-width: 601px) {
   .overflow-x-visible {
     overflow-x: scroll !important; } }
@@ -241,6 +260,11 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
  */
 .card {
   background-color: #eeeeee !important; }
+  .card.no-shadow {
+    box-shadow: none !important;
+    border: 1.3px solid rgba(0, 0, 0, 0.1); }
+    .card.no-shadow:hover {
+      box-shadow: none !important; }
   .card .card-content .small-header {
     color: #444444;
     font-size: 14pt; }
@@ -262,7 +286,7 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
  */
 /**
 ================================================
-================= MDOERN CARD ==================
+================= MODERN CARD ==================
 ================================================
  */
 .modern-card {
@@ -395,6 +419,26 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
 /**
 ================================================
 ================= IMAGE CARD ===================
+================================================
+ */
+/**
+================================================
+============== BASIC MODERN CARD ===============
+================================================
+ */
+.card.basic.modernize {
+  box-shadow: none !important;
+  border: 1.3px solid rgba(0, 0, 0, 0.1); }
+  .card.basic.modernize .card-content {
+    padding: 5px 10px !important; }
+    .card.basic.modernize .card-content .card-title {
+      font-size: 13pt; }
+    .card.basic.modernize .card-content p {
+      margin-bottom: 6px; }
+
+/**
+================================================
+============== BASIC MODERN CARD ===============
 ================================================
  */
 /**

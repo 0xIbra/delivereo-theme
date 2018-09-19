@@ -11,7 +11,8 @@
     
     .image-wrapper{
       position: relative;
-      display: block;
+      display: flex;
+      justify-content: center;
       width: 200px;
       height: 200px;
       margin: auto;
@@ -19,9 +20,7 @@
       overflow: hidden;
 
       img{
-        width: 300px;
-        max-width: 250px;
-        height: auto !important;
+        height: 100% !important;
       }
     }
 
@@ -45,7 +44,7 @@
 
   span.subheader{
     display: block;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     color: rgba(0,0,0,0.4);
   }
 

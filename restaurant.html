@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-        <title>Recherche | Delivereo</title>
+        <title>Restaurant | Delivereo</title>
 
         <meta name="author" content="Ibragim Abubakarov">
         <meta name="description" content="Thème Delivereo, pour un site de commande ">
@@ -27,6 +27,7 @@
                         <ul class="right hide-on-med-and-down">
                             <li><a href="index.html">Accueil</a></li>
                             <li><a href="register.html">Ibragim</a></li>
+                            <li><a href="register.html"><i class="material-icons">shopping_basket</i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -50,6 +51,7 @@
             <li><a class="subheader">Member</a></li>
             <li><a class="waves-effect" href="index.html"><i class="material-icons">home</i>Accueil</a></li>
             <li><a class="waves-effect" href="register.html"><i class="material-icons">account_circle</i>Ibragim</a></li>
+            <li><a class="waves-effect" href="void:javascript;"><i class="material-icons">shopping_basket</i>Panier</a></li>
         </ul>
 
 
@@ -60,7 +62,7 @@
                         <div class="card" id="profileimage">
                             <div class="card-content">
                                 <div class="image-wrapper">
-                                    <img src="assets/img/fastfood.jpg" alt="">
+                                    <img src="assets/img/eat.jpeg" alt="">
                                 </div>
                                 <div class="profile-cred">
                                     <span class="profile-title">Restaurant</span>
@@ -83,17 +85,24 @@
                         </div>
                         <div class="card" id="profileinfo">
                             <div class="card-content">
-                                <span class="card-title modernize">Contact</span>
+                                <div>
+                                    <span class="subheader">Horaires</span>
+                                    <div class="">
+                                        <span class="status success">Ouvert</span>
+                                        <span class="status attention">Ferme a 23h30</span>
+                                    </div>
+                                </div>
+                                <span class="subheader">Contact</span>
                                 <div class="row">
                                     <div class="col s12">
                                         <div class="row">
                                             <div class="profile-contact flex justify-center ">
-                                                <a href="void:javascript" class="modernize flex align-center waves-effect">
+                                                <a href="void:javascript" class="modernize flex align-center waves-effect waves-light">
                                                     <i class="material-icons">phone_android</i>
                                                     <span>Appeler</span>
                                                 </a>
-                                                <a href="void:javascript" class="modernize flex align-center waves-effect">
-                                                    <i class="material-icons">mail</i>
+                                                <a href="void:javascript" class="modernize flex align-center waves-effect waves-light">
+                                                    <i class="material-icons">mail_outline</i>
                                                     <span>Contacter</span>
                                                 </a>
                                             </div>
@@ -125,44 +134,82 @@
                         <div class="card" id="profilecontent">
                             <div class="card-content">
                                 <div class="row">
-
-
-                                    <div class="row">
-                                        <div class="col s12">
-                                            <ul class="tabs flex justify-center overflow-x-visible">
-                                                <li class="tab col s3"><a href="#fastfood">FastFood</a></li>
-                                                <li class="tab col s3"><a href="#burger">Burger</a></li>
-                                                <li class="tab col s3"><a href="#desserts">Desserts</a></li>
-                                            </ul>
-                                        </div>
-                                        <div id="fastfood" class="col s12">
-                                            <div class="row">
-                                                <div class="container-fluid">
-                                                    <div class="col s12 m6 l4">
-                                                        <div class="card">
-                                                            <div class="card-image">
-                                                                <img src="assets/img/burger.jpg" alt="Burger">
-                                                                <a href="void:javascript;"
-                                                                   class="btn-floating halfway-fab waves-effect waves-light">
-                                                                    <i class="material-icons">add</i>
-                                                                </a>
-                                                            </div>
-                                                            <div class="card-content">
-                                                                <span class="card-title">Burger</span>
-                                                                <p>Burger lorem ipsum dolor sit amet.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-
+                                    <div class="col s12">
+                                        <span class="row-header">Categorie</span>
+                                    </div>
+                                    <div class="col s12 m6">
+                                        <div class="card basic modernize">
+                                            <a href="void:javascript;">
+                                                <div class="card-content">
+                                                    <span class="card-title">Menu</span>
+                                                    <p>Menu Lorem ipsum dolor sit amet.</p>
+                                                    <div class="price">EUR 6.50</div>
                                                 </div>
-                                            </div>
+                                            </a>
                                         </div>
-                                        <div id="burger" class="col s12">
+                                    </div>
 
+                                    <div class="col s12 m6">
+                                        <div class="card basic modernize">
+                                            <a href="void:javascript;">
+                                                <div class="card-content">
+                                                    <span class="card-title">Menu</span>
+                                                    <p>Menu Lorem ipsum dolor sit amet.</p>
+                                                    <div class="price">EUR 6.50</div>
+                                                </div>
+                                            </a>
                                         </div>
-                                        <div id="desserts" class="col s12">
+                                    </div>
 
+                                    <div class="col s12">
+                                        <span class="row-header">Categorie 2</span>
+                                    </div>
+
+                                    <div class="col s12 m6">
+                                        <div class="card basic modernize">
+                                            <a href="void:javascript;">
+                                                <div class="card-content">
+                                                    <span class="card-title">Menu</span>
+                                                    <p>Menu Lorem ipsum dolor sit amet.</p>
+                                                    <div class="price">EUR 6.50</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col s12 m6">
+                                        <div class="card basic modernize">
+                                            <a href="void:javascript;">
+                                                <div class="card-content">
+                                                    <span class="card-title">Menu</span>
+                                                    <p>Menu Lorem ipsum dolor sit amet.</p>
+                                                    <div class="price">EUR 6.50</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col s12 m6">
+                                        <div class="card basic modernize">
+                                            <a href="void:javascript;">
+                                                <div class="card-content">
+                                                    <span class="card-title">Menu</span>
+                                                    <p>Menu Lorem ipsum dolor sit amet.</p>
+                                                    <div class="price">EUR 6.50</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col s12 m6">
+                                        <div class="card basic modernize">
+                                            <a href="void:javascript;">
+                                                <div class="card-content">
+                                                    <span class="card-title">Menu</span>
+                                                    <p>Menu Lorem ipsum dolor sit amet.</p>
+                                                    <div class="price">EUR 6.50</div>
+                                                </div>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>

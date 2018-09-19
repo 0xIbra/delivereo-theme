@@ -105,6 +105,40 @@ li, ul{
   color: $greenLight !important;
 }
 
+.flex{
+
+  span{
+    margin-right: 5px;
+  }
+}
+
+span{
+  display: block;
+
+  &.status{
+    font-weight: bold;
+
+    &.danger{
+      color: $danger;
+    }
+
+    &.success{
+      color: $success;
+    }
+
+    &.attention{
+      color: #FFAA00;
+    }
+
+  }
+}
+
+.row-header{
+  font-size: 15pt;
+  color: #222222;
+  margin: 5px 0;
+}
+
 
 @media (max-width: $small) {
   .overflow-x-visible{
