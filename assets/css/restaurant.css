@@ -92,7 +92,10 @@ span {
 
 @media (max-width: 601px) {
   .overflow-x-visible {
-    overflow-x: scroll !important; } }
+    overflow-x: scroll !important; }
+
+  .row-header {
+    text-align: center; } }
 .card {
   background-color: #ffffff !important; }
 
@@ -106,7 +109,8 @@ span {
   border-radius: 50%;
   overflow: hidden; }
   .card#profileimage .card-content .image-wrapper img {
-    height: 100% !important; }
+    height: 100% !important;
+    max-height: 300px; }
 .card#profileimage .card-content .profile-cred {
   margin-top: 20px; }
   .card#profileimage .card-content .profile-cred .profile-title {

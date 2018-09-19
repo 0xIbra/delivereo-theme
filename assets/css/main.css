@@ -92,7 +92,10 @@ span {
 
 @media (max-width: 601px) {
   .overflow-x-visible {
-    overflow-x: scroll !important; } }
+    overflow-x: scroll !important; }
+
+  .row-header {
+    text-align: center; } }
 header {
   position: fixed;
   width: 100%;
@@ -549,5 +552,44 @@ a.redirect {
   background: #0ee9c3 !important; }
   .pagination li:hover a {
     color: #eeeeee !important; }
+
+.modal.modernize .modal-success {
+  background: #5cb85c;
+  color: #eeeeee; }
+.modal.modernize .modal-danger {
+  background: #d9534f;
+  color: #eeeeee; }
+
+@media (max-width: 601px) {
+  .modal {
+    width: 95% !important; }
+
+  .modal.modernize {
+    color: #444444; }
+    .modal.modernize .modal-content .modal-title {
+      text-align: center; } }
+.quantity.input {
+  display: flex;
+  align-items: center; }
+  .quantity.input button.modernize {
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.14);
+    font-size: 18pt;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: ease-in .1s;
+    cursor: pointer; }
+    .quantity.input button.modernize:nth-child(1) {
+      margin-left: 0 !important; }
+    .quantity.input button.modernize:last-child {
+      margin-right: 0 !important; }
+    .quantity.input button.modernize.dec {
+      font-size: 22pt !important; }
+    .quantity.input button.modernize:hover {
+      background: rgba(0, 0, 0, 0.1); }
+  .quantity.input .quantity.count {
+    font-size: 17pt; }
 
 /*# sourceMappingURL=main.css.map */

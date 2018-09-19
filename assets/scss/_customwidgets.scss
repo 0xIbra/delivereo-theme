@@ -1,0 +1,36 @@
+.quantity.input{
+  display: flex;
+  align-items: center;
+
+  button.modernize{
+    background: transparent;
+    border: 1px solid rgba(0,0,0,0.14);
+    font-size: 18pt;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: ease-in .1s;
+    cursor: pointer;
+
+    &:nth-child(1){
+      margin-left: 0 !important;
+    }
+
+    &:last-child{
+      margin-right: 0 !important;
+    }
+
+    &.dec{
+      font-size: 22pt !important;
+    }
+
+    &:hover{
+      background: rgba(0,0,0,0.1);
+    }
+  }
+
+  .quantity.count{
+    font-size: 17pt;
+  }
+}
