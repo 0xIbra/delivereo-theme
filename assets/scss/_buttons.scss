@@ -1,6 +1,8 @@
 a.modernize{
   background: $greenLight;
   padding: 10px 20px;
+  min-height: 20px;
+  margin: 5px 10px;
   border-radius: 3px;
   box-shadow: 0 0 20px rgba(0,0,0,0.1);
   transition: ease-in .1s;
@@ -14,6 +16,29 @@ a.modernize{
   &:hover{
     background: #0bc9a9;
   }
+
+  &.danger{
+    background: $danger !important;
+
+    &:hover{
+      background: #B34541 !important;
+    }
+  }
+
+  &.default{
+    background: $default !important;
+    color: $dark;
+    &:hover{
+      background: rgba(0,0,0,0.1) !important;
+    }
+  }
+}
+
+i.material-icons.close{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: rgba(0,0,0,0.55);
 }
 
 input[type="submit"].modernize.btn{
@@ -35,6 +60,15 @@ input[type="submit"].modernize.btn{
 
 a.redirect{
   color: $greenLight;
+
+  &.default{
+    color: $default !important;
+  }
+
+  &.danger{
+    color: $danger !important;
+  }
+
 }
 
 @media (max-width: $small) {

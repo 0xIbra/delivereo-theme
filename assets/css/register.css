@@ -24,9 +24,6 @@ form {
 p {
   padding: 0 3px; }
 
-input[type="text"].modernize, input[type="email"].modernize, input[type="password"].modernize {
-  border: 1px solid rgba(0, 0, 0, 0.13) !important; }
-
 .submit-wrapper {
   display: flex;
   justify-content: center; }

@@ -140,6 +140,17 @@ span{
 }
 
 
+.flex.pad-around{
+  a{
+    padding: 0 10px;
+  }
+}
+
+.line{
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+
 @media (max-width: $small) {
   .overflow-x-visible{
     overflow-x: scroll !important;

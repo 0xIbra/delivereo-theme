@@ -90,6 +90,12 @@ span {
   color: #222222;
   margin: 5px 0; }
 
+.flex.pad-around a {
+  padding: 0 10px; }
+
+.line {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+
 @media (max-width: 601px) {
   .overflow-x-visible {
     overflow-x: scroll !important; }

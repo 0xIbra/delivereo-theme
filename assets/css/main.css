@@ -90,6 +90,12 @@ span {
   color: #222222;
   margin: 5px 0; }
 
+.flex.pad-around a {
+  padding: 0 10px; }
+
+.line {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+
 @media (max-width: 601px) {
   .overflow-x-visible {
     overflow-x: scroll !important; }
@@ -262,7 +268,7 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
 ================================================
  */
 .card {
-  background-color: #eeeeee !important; }
+  background-color: #ffffff !important; }
   .card.no-shadow {
     box-shadow: none !important;
     border: 1.3px solid rgba(0, 0, 0, 0.1); }
@@ -493,6 +499,8 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
 a.modernize {
   background: #0ee9c3;
   padding: 10px 20px;
+  min-height: 20px;
+  margin: 5px 10px;
   border-radius: 3px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   transition: ease-in .1s;
@@ -502,6 +510,21 @@ a.modernize {
     font-size: 12pt; }
   a.modernize:hover {
     background: #0bc9a9; }
+  a.modernize.danger {
+    background: #d9534f !important; }
+    a.modernize.danger:hover {
+      background: #B34541 !important; }
+  a.modernize.default {
+    background: #f9f9f9 !important;
+    color: #444444; }
+    a.modernize.default:hover {
+      background: rgba(0, 0, 0, 0.1) !important; }
+
+i.material-icons.close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: rgba(0, 0, 0, 0.55); }
 
 input[type="submit"].modernize.btn {
   background: #0ee9c3;
@@ -517,6 +540,10 @@ input[type="submit"].modernize.btn {
 
 a.redirect {
   color: #0ee9c3; }
+  a.redirect.default {
+    color: #f9f9f9 !important; }
+  a.redirect.danger {
+    color: #d9534f !important; }
 
 @media (max-width: 601px) {
   a.modernize {
