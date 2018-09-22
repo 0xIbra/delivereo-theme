@@ -245,14 +245,14 @@ div.input-field.search {
       -webkit-transition: .2s opacity ease-out, .2s color ease-out;
       transition: .2s opacity ease-out, .2s color ease-out; }
 
-input[type="submit"].modernize {
+input[type="submit"].modernize, button[type="submit"].modernize {
   height: 40px;
   border: none !important;
   background: #333333;
   padding: 5px 10px;
   color: #eeeeee;
   border-radius: 0 3px 3px 0; }
-  input[type="submit"].modernize:hover {
+  input[type="submit"].modernize:hover, button[type="submit"].modernize:hover {
     background: #222;
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }

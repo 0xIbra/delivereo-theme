@@ -3,25 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e9331701-1cd9-4d52-80cd-f8496dd4b2fa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/.sass-cache/034e071655b3c122bce5226ee112302ae713c9a0/_buttons.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/assets/.sass-cache/034e071655b3c122bce5226ee112302ae713c9a0/_buttons.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/.sass-cache/034e071655b3c122bce5226ee112302ae713c9a0/_cards.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/assets/.sass-cache/034e071655b3c122bce5226ee112302ae713c9a0/_cards.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/.sass-cache/034e071655b3c122bce5226ee112302ae713c9a0/_globals.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/assets/.sass-cache/034e071655b3c122bce5226ee112302ae713c9a0/_globals.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/.sass-cache/034e071655b3c122bce5226ee112302ae713c9a0/login.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/assets/.sass-cache/034e071655b3c122bce5226ee112302ae713c9a0/login.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/.sass-cache/034e071655b3c122bce5226ee112302ae713c9a0/register.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/assets/.sass-cache/034e071655b3c122bce5226ee112302ae713c9a0/register.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/login.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/login.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/.sass-cache/034e071655b3c122bce5226ee112302ae713c9a0/_inputs.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/assets/.sass-cache/034e071655b3c122bce5226ee112302ae713c9a0/_inputs.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/register.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/register.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/restaurant.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/restaurant.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/restaurant.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/restaurant.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/_cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_cards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/_globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_globals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/login.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/register.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/register.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/panier.html" beforeDir="false" afterPath="$PROJECT_DIR$/panier.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_inputs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_inputs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,19 +19,21 @@
     <session id="1351283069">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="3" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="10" />
-          <entry key="html" value="10" />
+          <entry key="html" value="12" />
           <entry key="js" value="2" />
           <entry key="scss" value="55" />
           <entry key="yml" value="1" />
@@ -54,7 +42,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="10" />
-          <entry key="HTML" value="10" />
+          <entry key="HTML" value="12" />
           <entry key="JavaScript" value="2" />
           <entry key="SCSS" value="55" />
           <entry key="YAML" value="1" />
@@ -62,29 +50,38 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="15437" />
+          <entry key="html" value="15462" />
           <entry key="js" value="856" />
-          <entry key="scss" value="15299" />
+          <entry key="scss" value="15319" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="15437" />
+          <entry key="HTML" value="15462" />
           <entry key="JavaScript" value="856" />
-          <entry key="SCSS" value="15299" />
+          <entry key="SCSS" value="15319" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.55916774">
+    <splitter split-orientation="horizontal" split-proportion="0.7980333">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-3059">
-                  <caret line="26" column="75" lean-forward="true" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="75" />
+                <state relative-caret-position="115">
+                  <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/login.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1199">
+                  <caret line="59" column="56" selection-start-line="59" selection-start-column="56" selection-end-line="59" selection-end-column="56" />
                 </state>
               </provider>
             </entry>
@@ -101,16 +98,25 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/restaurant.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="519">
-                  <caret line="201" column="42" lean-forward="true" selection-start-line="191" selection-start-column="36" selection-end-line="201" selection-end-column="42" />
+                <state relative-caret-position="3358">
+                  <caret line="146" column="32" selection-start-line="146" selection-start-column="32" selection-end-line="146" selection-end-column="32" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/register.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1702">
+                  <caret line="74" column="46" selection-start-line="74" selection-start-column="46" selection-end-line="74" selection-end-column="46" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/panier.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="694">
+                <state relative-caret-position="2645">
                   <caret line="115" column="115" selection-start-line="115" selection-start-column="115" selection-end-line="115" selection-end-column="115" />
                 </state>
               </provider>
@@ -132,7 +138,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/scss/restaurant.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="206">
+                <state relative-caret-position="253">
                   <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
                 </state>
               </provider>
@@ -141,8 +147,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/scss/_globals.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="924">
-                  <caret line="143" column="4" lean-forward="true" selection-start-line="143" selection-start-column="4" selection-end-line="143" selection-end-column="4" />
+                <state relative-caret-position="3289">
+                  <caret line="143" column="4" selection-start-line="143" selection-start-column="4" selection-end-line="143" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
@@ -159,8 +165,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/scss/_buttons.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="32">
-                  <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+                <state relative-caret-position="575">
+                  <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
                 </state>
               </provider>
             </entry>
@@ -169,16 +175,16 @@
             <entry file="file://$PROJECT_DIR$/assets/scss/_cards.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="69">
-                  <caret line="3" column="48" lean-forward="true" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+                  <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/scss/_inputs.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="92">
-                  <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+                <state relative-caret-position="368">
+                  <caret line="85" column="35" selection-start-line="85" selection-start-column="35" selection-end-line="85" selection-end-column="35" />
                 </state>
               </provider>
             </entry>
@@ -186,17 +192,17 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/scss/register.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="602">
-                  <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+                <state relative-caret-position="920">
+                  <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/scss/panier.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="115">
-                  <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+                  <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
                 </state>
               </provider>
             </entry>
@@ -251,7 +257,6 @@
         <option value="$PROJECT_DIR$/assets/register.html" />
         <option value="$PROJECT_DIR$/assets/scss/_alerts.scss" />
         <option value="$PROJECT_DIR$/assets/scss/_showcase.scss" />
-        <option value="$PROJECT_DIR$/assets/scss/_inputs.scss" />
         <option value="$PROJECT_DIR$/assets/scss/search.scss" />
         <option value="$PROJECT_DIR$/assets/scss/_pagination.scss" />
         <option value="$PROJECT_DIR$/assets/scss/_hero.scss" />
@@ -265,7 +270,6 @@
         <option value="$PROJECT_DIR$/assets/scss/_modals.scss" />
         <option value="$PROJECT_DIR$/assets/scss/_customwidgets.scss" />
         <option value="$PROJECT_DIR$/restaurant.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/scss/_cards.scss" />
         <option value="$PROJECT_DIR$/assets/scss/login.scss" />
         <option value="$PROJECT_DIR$/assets/scss/register.scss" />
@@ -273,6 +277,8 @@
         <option value="$PROJECT_DIR$/assets/scss/_buttons.scss" />
         <option value="$PROJECT_DIR$/assets/scss/panier.scss" />
         <option value="$PROJECT_DIR$/panier.html" />
+        <option value="$PROJECT_DIR$/assets/scss/_inputs.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -283,10 +289,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1435" />
-    <option name="y" value="25" />
-    <option name="width" value="1853" />
-    <option name="height" value="1055" />
+    <option name="y" value="186" />
+    <option name="width" value="1368" />
+    <option name="height" value="770" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -296,6 +301,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -312,18 +318,17 @@
               <item name="Delivereo3.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="Delivereo3.0" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="main.css&#9;FILE&#9;file:///home/ibrahim/projects/themes/Delivereo3.0/assets/css/main.css&#10;panier&#9;FILE&#9;file:///home/ibrahim/projects/themes/Delivereo3.0/assets/scss/panier.scss&#10;.close&#9;null&#9;null&#10;_globa&#9;FILE&#9;file:///home/ibrahim/projects/themes/Delivereo3.0/assets/scss/_globals.scss&#10;register&#9;FILE&#9;file:///home/ibrahim/projects/themes/Delivereo3.0/assets/scss/register.scss&#10;login&#9;FILE&#9;file:///home/ibrahim/projects/themes/Delivereo3.0/assets/scss/login.scss&#10;_inp&#9;FILE&#9;file:///home/ibrahim/projects/themes/Delivereo3.0/assets/scss/_inputs.scss&#10;_cards&#9;FILE&#9;file:///home/ibrahim/projects/themes/Delivereo3.0/assets/scss/_cards.scss&#10;_button&#9;FILE&#9;file:///home/ibrahim/projects/themes/Delivereo3.0/assets/scss/_buttons.scss&#10;main&#9;FILE&#9;file:///home/ibrahim/projects/themes/Delivereo3.0/assets/scss/main.scss&#10;_modal&#9;FILE&#9;file:///home/ibrahim/projects/themes/Delivereo3.0/assets/scss/_modals.scss&#10;.status&#9;null&#9;null&#10;.subheader&#9;null&#9;null&#10;.page-wrapper&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="register.html&#9;FILE&#9;file:///home/ibrahim/projects/themes/Delivereo3.0/register.html&#10;main.css&#9;FILE&#9;file:///home/ibrahim/projects/themes/Delivereo3.0/assets/css/main.css&#10;panier&#9;FILE&#9;file:///home/ibrahim/projects/themes/Delivereo3.0/assets/scss/panier.scss&#10;.close&#9;null&#9;null&#10;_globa&#9;FILE&#9;file:///home/ibrahim/projects/themes/Delivereo3.0/assets/scss/_globals.scss&#10;register&#9;FILE&#9;file:///home/ibrahim/projects/themes/Delivereo3.0/assets/scss/register.scss&#10;login&#9;FILE&#9;file:///home/ibrahim/projects/themes/Delivereo3.0/assets/scss/login.scss&#10;_inp&#9;FILE&#9;file:///home/ibrahim/projects/themes/Delivereo3.0/assets/scss/_inputs.scss&#10;_cards&#9;FILE&#9;file:///home/ibrahim/projects/themes/Delivereo3.0/assets/scss/_cards.scss&#10;_button&#9;FILE&#9;file:///home/ibrahim/projects/themes/Delivereo3.0/assets/scss/_buttons.scss&#10;main&#9;FILE&#9;file:///home/ibrahim/projects/themes/Delivereo3.0/assets/scss/main.scss&#10;_modal&#9;FILE&#9;file:///home/ibrahim/projects/themes/Delivereo3.0/assets/scss/_modals.scss&#10;.status&#9;null&#9;null&#10;.subheader&#9;null&#9;null&#10;.page-wrapper&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -370,18 +375,20 @@
       <workItem from="1537205065053" duration="7262000" />
       <workItem from="1537265334790" duration="8484000" />
       <workItem from="1537346112743" duration="12767000" />
-      <workItem from="1537429280710" duration="8624000" />
+      <workItem from="1537429280710" duration="13186000" />
+      <workItem from="1537511666097" duration="2519000" />
+      <workItem from="1537604206013" duration="623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95285000" />
+    <option name="totallyTimeSpent" value="102989000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1427" y="25" width="1861" height="1055" extended-state="6" />
+    <frame x="0" y="186" width="1368" height="770" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15922865" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.16111952" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -471,13 +478,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="88" column="105" selection-start-line="88" selection-start-column="105" selection-end-line="88" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/scss/_navbar.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
@@ -495,10 +495,43 @@
     <entry file="file://$PROJECT_DIR$/assets/scss/_hero.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/login.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12759" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/search.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restaurant.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3358">
+          <caret line="146" column="32" selection-start-line="146" selection-start-column="32" selection-end-line="146" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1702">
+          <caret line="74" column="46" selection-start-line="74" selection-start-column="46" selection-end-line="74" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panier.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2645">
+          <caret line="115" column="115" selection-start-line="115" selection-start-column="115" selection-end-line="115" selection-end-column="115" />
         </state>
       </provider>
     </entry>
@@ -509,59 +542,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/_customwidgets.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/restaurant.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="201" column="42" lean-forward="true" selection-start-line="191" selection-start-column="36" selection-end-line="201" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3059">
-          <caret line="26" column="75" lean-forward="true" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/_cards.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="48" lean-forward="true" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/login.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1199">
+          <caret line="59" column="56" selection-start-line="59" selection-start-column="56" selection-end-line="59" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/restaurant.scss">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/login.scss">
+    <entry file="file://$PROJECT_DIR$/assets/scss/_globals.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/_inputs.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/register.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        <state relative-caret-position="3289">
+          <caret line="143" column="4" selection-start-line="143" selection-start-column="4" selection-end-line="143" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -572,43 +570,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/restaurant.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/_globals.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="143" column="4" lean-forward="true" selection-start-line="143" selection-start-column="4" selection-end-line="143" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/scss/_buttons.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+        <state relative-caret-position="575">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
+    <entry file="file://$PROJECT_DIR$/assets/scss/_cards.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12759" />
+        <state relative-caret-position="69">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/panier.html">
+    <entry file="file://$PROJECT_DIR$/assets/scss/register.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="694">
-          <caret line="115" column="115" selection-start-line="115" selection-start-column="115" selection-end-line="115" selection-end-column="115" />
+        <state relative-caret-position="920">
+          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/scss/panier.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/_customwidgets.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/_inputs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="85" column="35" selection-start-line="85" selection-start-column="35" selection-end-line="85" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
         </state>
       </provider>
     </entry>

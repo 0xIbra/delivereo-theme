@@ -73,7 +73,7 @@ div.input-field.search{
   }
 }
 
-input[type="submit"].modernize{
+input[type="submit"].modernize, button[type="submit"].modernize{
   height: $default-height;
   border: none !important;
   background: #333333;
