@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <title>Delivereo | Ibragim Abubakarov</title>
+
+        <meta name="author" content="Ibragim Abubakarov">
+        <meta name="description" content="Thème Delivereo, Pour un site où on peut trouver les restaurants proches de nous et commander notre plat préféré. Ibragim Abubakarov">
+        <meta name="keywords" content="Ibragim Abubakarov, Ibragim, Abubakarov, developpeur, web, mobile, developpeur integrateur, Delivereo">
+
+        <link rel="shortcut icon" href="assets/img/favicon.png">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/materialize.min.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/restaurant.css">
+        <link rel="stylesheet" href="assets/css/profile.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="container-fluid">
+                    <div class="nav-wrapper">
+                        <a href="index.html" class="brand-logo left bold">Delivereo</a>
+                        <a href="#" data-target="sidebar-nav" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="index.html">Déconnexion</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <ul id="sidebar-nav" class="sidenav">
+            <li>
+                <div class="user-view">
+                    <div class="background">
+                        <div class="background-overlay"></div>
+                        <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cbbd27149a8243a42eb2bd0bd918ba8f&auto=format&fit=crop&w=750&q=80">
+                    </div>
+                    <a href="void:javascript;"><img class="circle" src="https://images.unsplash.com/photo-1512667281074-84fc588aa399?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=29d596fae399949ae232a48dd88f8d95&auto=format&fit=crop&w=750&q=80"></a>
+                    <a href="void:javascript;"><span class="white-text name">Ibragim Abubakarov</span></a>
+                    <a href="mailto:ibrahim.tchee@gmail.com"><span class="white-text email">ibrahim.tchee@gmail.com</span></a>
+                </div>
+            </li>
+            <li><a href="#!"><i class="material-icons">cloud</i>Check on Gitlab</a></li>
+            <li><div class="divider"></div></li>
+            <li><a class="subheader">Member</a></li>
+            <li><a class="waves-effect" href="login.html"><i class="material-icons">account_circle</i>Connexion</a></li>
+            <li><a class="waves-effect" href="register.html"><i class="material-icons">format_align_left</i>Inscription</a></li>
+        </ul>
+
+
+        <div class="page-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col s12 m5 l4">
+                        <div class="card" id="profileimage">
+                            <div class="card-content">
+                                <div class="image-wrapper">
+                                    <img src="https://res.cloudinary.com/dqwg570oo/image/upload/v1540289616/boss.png" alt="">
+                                </div>
+                                <div class="profile-cred">
+                                    <span class="profile-title">Ibragim Abubakarov</span>
+                                    <div class="location flex align-center justify-center">
+                                        <span class="ville">Consommateur</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" id="profileinfo">
+                            <div class="card-content">
+                                <div class="row">
+                                    <div class="col s12">
+                                        <span class="subheader">Informations</span>
+                                        <div class="info">
+                                            <span class="material-icons">account_circle</span>
+                                            <span class="value">Ibragim</span>
+                                        </div>
+                                        <div class="info">
+                                            <span class="material-icons">mail</span>
+                                            <span><a href="mailto:ibrahim.tchee@gmail.com">ibrahim.tchee@gmail.com</a></span>
+                                        </div>
+                                        <div class="info">
+                                            <span class="material-icons">wc</span>
+                                            <span class="value">Homme</span>
+                                        </div>
+                                        <span class="subheader">Reseaux sociaux</span>
+                                        <div class="social-icons flex align-center">
+                                            <a href="https://www.instagram.com/ibrahim_tchee" target="_blank" class="icon-wrapper">
+                                                <span class="icon fa fa-instagram"></span>
+                                            </a>
+                                            <a href="https://www.linkedin.com/in/ibragim64000" target="_blank" class="icon-wrapper">
+                                                <span class="icon fa fa-linkedin"></span>
+                                            </a>
+                                            <a href="void:javascript;" class="icon-wrapper">
+                                                <span class="icon fa fa-facebook"></span>
+                                            </a>
+                                            <a href="void:javascript;" class="icon-wrapper">
+                                                <span class="icon fa fa-twitter"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="flex buttons-row">
+                                        <a href="profile_edit.html" class="modernize flex justify-center">
+                                            <span class="material-icons">account_circle</span>
+                                            <span>Modifier</span>
+                                        </a>
+                                        <a href="password_change.html" class="modernize flex justify-center">
+                                            <span class="material-icons">lock</span>
+                                            <span>Mot de passe</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m7 l8">
+                        <div class="card" id="profilecontent">
+                            <div class="card-content">
+                                <div class="row">
+                                    <div class="col s12">
+                                        <div class="row-header">Adresses</div>
+                                    </div>
+                                    <div class="col col s12 m6 l4">
+                                        <div class="card basic modernize">
+                                            <a href="#">
+                                                <div class="card-content">
+                                                    <span class="card-title">Adresse principale</span>
+                                                    <span class="address">2 route de bayonne</span>
+                                                    <span class="address">Pau, 64000</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="assets/js/materialize.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

@@ -595,6 +595,14 @@ a.redirect {
     color: #444444; }
     .modal.modernize .modal-content .modal-title {
       text-align: center; } }
+.input-field.modernize .select-wrapper {
+  background: #eeeeee;
+  padding: 0 5px; }
+  .input-field.modernize .select-wrapper input {
+    border-bottom: none !important; }
+  .input-field.modernize .select-wrapper ul.dropdown-content li span {
+    color: #444 !important; }
+
 .quantity.input {
   display: flex;
   align-items: center; }

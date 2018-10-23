@@ -1,0 +1,43 @@
+@import "globals";
+
+.card-content{
+
+  span.address{
+    color: #777;
+  }
+}
+
+div.info{
+  display: flex;
+  color: #555;
+  align-items: center;
+
+  span{
+    margin: 5px 10px;
+
+    &.value{
+      font-weight: bold;
+    }
+
+    a{
+      font-weight: bold;
+      &:hover{
+        color: $greenLight;
+      }
+    }
+  }
+}
+
+
+
+@media (max-width: $small) {
+  div.buttons-row{
+    display: block !important;
+
+    a{
+      display: flex !important;
+      margin: 10px 0;
+      font-size: 16px;
+    }
+  }
+}
