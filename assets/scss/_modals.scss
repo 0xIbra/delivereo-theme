@@ -1,7 +1,7 @@
 @import "breakpoints";
 
 .modal.modernize{
-
+  overflow-y: hidden !important;
   .modal-success{
     background: $success;
     color: #eeeeee;

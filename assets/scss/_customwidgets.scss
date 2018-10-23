@@ -4,29 +4,18 @@
 
   button.modernize{
     background: transparent;
-    border: 1px solid rgba(0,0,0,0.14);
-    font-size: 18pt;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,.14);
     margin: 0 10px;
-    transition: ease-in .1s;
+    border-radius: 3px;
     cursor: pointer;
 
-    &:nth-child(1){
-      margin-left: 0 !important;
-    }
-
-    &:last-child{
-      margin-right: 0 !important;
-    }
-
-    &.dec{
-      font-size: 22pt !important;
-    }
-
     &:hover{
-      background: rgba(0,0,0,0.1);
+      background: rgba(0,0,0,.14);
+    }
+
+    span{
+      padding: 7px 3px;
+      color: #666;
     }
   }
 
