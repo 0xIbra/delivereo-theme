@@ -549,7 +549,7 @@ a.redirect {
   a.modernize {
     padding: 10px !important; } }
 .sidenav li .user-view .background img {
-  max-width: 100%; }
+  max-width: 100% !important; }
 .sidenav li .user-view .background .background-overlay {
   position: absolute;
   width: 100%;
