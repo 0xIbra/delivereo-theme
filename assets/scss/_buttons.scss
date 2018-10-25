@@ -71,6 +71,33 @@ a.redirect{
 
 }
 
+a.btn-flat{
+  &.green{
+    color: #fff !important;
+  }
+  &.red{
+    color: #fff !important;
+  }
+}
+
+a.add-btn{
+  border: 1px solid rgba(0,0,0,0.14) !important;
+  border-radius: 2px;
+  margin-left: 10px;
+  justify-content: center;
+  transition: ease-in .1s;
+
+  &:hover{
+    color: $greenLight !important;
+  }
+
+  span.material-icons{
+    font-size: 18pt !important;
+    margin-right: 0 !important;
+    padding: 0 2px;
+  }
+}
+
 @media (max-width: $small) {
   a.modernize{
     padding: 10px !important;

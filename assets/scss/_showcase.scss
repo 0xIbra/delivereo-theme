@@ -25,6 +25,11 @@
   &.bg{
     background: url("../img/bg-delivreo.jpg") center;
     background-size: cover;
+
+    &.owner{
+      background: url("https://res.cloudinary.com/dqwg570oo/image/upload/v1540311324/businessman.jpg") no-repeat !important;
+      background-size: cover !important;
+    }
   }
 
   .overlay{
@@ -35,6 +40,10 @@
     top: 0;
     opacity: .87;
     background-image: linear-gradient(to top, #0ee9c3, #00eacb, #00ead3, #01ebdb, #12ebe2);
+
+    &.black{
+      background-image: linear-gradient(to top, #222, #222);
+    }
   }
 
   .showcase-heading{
