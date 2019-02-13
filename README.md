@@ -1,1 +1,1 @@
-Delivereo3.0
+Delivereo theme
